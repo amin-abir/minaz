@@ -108,7 +108,7 @@ endif;
 add_action('minaz_action_footer','minaz_footer', 10);
 
 /** 
-	Post Slide 
+	Post Slider 
 **/
 if ( ! function_exists( 'minaz_blog_slider' ) ) :
 function minaz_blog_slider(){
@@ -134,15 +134,15 @@ function minaz_blog_slider(){
 						minaz_post_thumbnail();
 					 ?>
 					<div class="slide-wrapper">
-					  <div class="slide-text">
+					  <div class="slide-text bg">
 						<div class="cat">
 							<?php minaz_get_category();?>
 						</div>
 						<div class="slide-heading">
 							<?php the_title( '<h2 class="slider-post-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );?>
 						</div>
-						  <div class="slide-body">
-							<?php echo minaz_get_excerpt(90); ?>
+						  <div class="slider-button">
+							<?php echo'<a href="'.esc_url ( get_the_permalink( $post->ID ) ).'" class="button">'.'More'.'</a>'; ?>
 						  </div>
 						</div>
 					</div>

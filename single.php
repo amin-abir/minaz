@@ -32,9 +32,7 @@ get_header();
 				}
 				?>
 				
-				<section class="authorpage">
-					<?php do_action( 'minaz_author' ); ?>
-				</section>
+				
 				
 				<?php // If comments are open or we have at least one comment, load up the comment template.
 					if ( comments_open() || get_comments_number() ) :

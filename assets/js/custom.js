@@ -35,14 +35,11 @@
     });
 	
 jQuery('.blog-slider').slick({
- autoplay:true,
-  autoplaySpeed:2500,
+ autoplay:false,
+  autoplaySpeed:2000,
   arrows:true,
   prevArrow:'<button type="button" class="slick-prev"></button>',
   nextArrow:'<button type="button" class="slick-next"></button>',
-  centerMode: true,
-  centerPadding: '40px',
-  slidesToShow: 3,
   lazyLoad: 'ondemand',
   prevArrow: '.slick-nav.slick-prev ',
   nextArrow: '.slick-nav.slick-next',

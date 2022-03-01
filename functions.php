@@ -168,11 +168,7 @@ require get_template_directory() . '/inc/customizer/customizer-blog.php';
 
 require get_template_directory() . '/inc/customizer/customizer-colors.php';
 
-/**
- * Latest Post.
- */
-require get_template_directory() . '/inc/widget/class-minaz-latest-post.php';
-/**
+
 
 /**
  * Kirki Customizer.
