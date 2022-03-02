@@ -82,7 +82,7 @@ function minaz_blog_customizer_fields( $fields ) {
 		'transport'   => 'refresh',
 		'output' => array(
 				array(
-					'element'  => '.slick-nav, .blog-slider figure:hover .slide-wrapper .slide-text',
+					'element'  => '.slick-nav, .slide-wrapper .slide-text',
 					'property' => 'background',
 				),
 		),

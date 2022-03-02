@@ -32,7 +32,7 @@
   //Slider Bg
   wp.customize("minaz_slide_color", function (value) {
     value.bind(function (to) {
-      $(".slick-nav, .blog-slider figure:hover .slide-wrapper .slide-text").css("background", to);
+      $(".slick-nav, .blog-slider .post-slider .slide-wrapper .slide-text").css("background", to);
     });
   });
 

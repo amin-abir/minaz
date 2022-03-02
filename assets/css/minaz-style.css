@@ -1998,16 +1998,6 @@ svg:not(:root) {
     color: #fff;
 }
 
-/* .blog-slider figure:hover .slide-body {
-    max-height: 660px;
-    opacity: 1;
-}
-
-.blog-slider figure:hover .slide-wrapper .slide-text{
-	background:#dc3545;
-	transition:.4s;
-    height:auto;
-} */
 .slide-wrapper .btn-more {
   color: #ff0a0a;
   font-size: 14px;

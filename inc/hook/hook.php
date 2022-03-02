@@ -129,7 +129,7 @@ function minaz_blog_slider(){
 			$query = get_posts($args);
 				foreach ( $query as $post ) :// phpcs:ignore WordPress.WP.GlobalVariablesOverride
 				 ?>
-				<figure class="effect-steve">
+				<figure class="post-slider">
 					 <?php 
 						minaz_post_thumbnail();
 					 ?>
