@@ -20,8 +20,8 @@ function minaz_blog_customizer_fields( $fields ) {
 	$fields[] = array(
 		'type'        => 'select',
 		'settings'    => 'select_cat',
-		'label'       => __( 'Slider Category', 'minaz' ),
-		'description' => __( 'Select your category', 'minaz' ),
+		'label'       => __( 'Slider Display Category', 'minaz' ),
+		'description' => __( 'Select post category to display', 'minaz' ),
 		'section'     => 'blog_customizer',
 		'multiple'    => 999,
 		'default'     => 0,
@@ -32,9 +32,10 @@ function minaz_blog_customizer_fields( $fields ) {
    $fields[] = array(
 		'type'        => 'number',
 		'settings'    => 'slider_blog_number',
-		'label'       => esc_html__( 'Slider to show', 'minaz' ),
+		'label'       => esc_html__( 'Slides to show', 'minaz' ),
+		'description' => esc_html__( 'Number of slides to display', 'minaz' ),
 		'section'     => 'blog_customizer',
-		'default'     => 5,
+		'default'     => 3,
 		'choices'     => [
 			'min'  => 0,
 			'max'  => 20,
@@ -44,7 +45,7 @@ function minaz_blog_customizer_fields( $fields ) {
 	$fields[] = array(
 		'type'        => 'select',
 		'settings'    => 'order_setting',
-		'label'       => esc_html__( 'Order', 'minaz' ),
+		'label'       => esc_html__( 'Slides Display Order', 'minaz' ),
 		'section'     => 'blog_customizer',
 		'default'     => 'DESC',
 		'placeholder' => esc_html__( 'Select an option...', 'minaz' ),
@@ -58,7 +59,7 @@ function minaz_blog_customizer_fields( $fields ) {
 	$fields[] = array(
 		'type'        => 'select',
 		'settings'    => 'order_by_setting',
-		'label'       => esc_html__( 'Order by', 'minaz' ),
+		'label'       => esc_html__( 'Slides Order By', 'minaz' ),
 		'section'     => 'blog_customizer',
 		'default'     => 'date',
 		'placeholder' => esc_html__( 'Select an option...', 'minaz' ),
@@ -76,7 +77,7 @@ function minaz_blog_customizer_fields( $fields ) {
 	 $fields[] = array(
         'type'        => 'color',
         'settings'    => 'minaz_slide_color',
-        'label'       => __( 'Slider Background', 'minaz' ),
+        'label'       => __( 'Overlay Color', 'minaz' ),
         'section'     => 'blog_customizer',
         'priority'    => 10,
 		'transport'   => 'refresh',
