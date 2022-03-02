@@ -1845,6 +1845,7 @@ hr{
     cursor: pointer;
     z-index: 10;
     border-radius:7px;
+    opacity: .5;
 }
 .slick-nav:hover, .slick-nav:focus{
 	background:#dc3545;
@@ -1943,13 +1944,14 @@ svg:not(:root) {
 
 .bg{
   background: rgba(0,0,0,0.3);
-  padding: 100px;
-  bottom: 100px;
+  padding: 10px;
+  bottom: 140px;
   position: absolute;
   width: 100%;
   max-height: 300px;
   max-width: 600px;
   left: 30%;
+  opacity: .5;
 }
 
 .slider-button{
