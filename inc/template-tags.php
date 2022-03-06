@@ -30,7 +30,7 @@ if ( ! function_exists( 'minaz_posted_on' ) ) :
 			'<a href="' . esc_url( get_permalink() ) . '" rel="bookmark" class="post-date">' . $time_string . '</a>'
 		);
 
-		echo '<span class="posted-on"><i class="fa fa-clock-o"></i>' . $posted_on . '</span>'; // WPCS: XSS OK.
+		echo '<span class="posted-on">' . $posted_on . '</span>'; // WPCS: XSS OK.
 
 	}
 endif;

@@ -27,11 +27,11 @@
 			</header><!-- .entry-header -->
 		</div>
 	</div>
-	<div class="col-md-6">
+	<div class="col-md-6 home-post-block">
 		<div class="blog_post_meta mb-2">
 			<?php
 			minaz_get_category();
-			minaz_posted_on();
+			
 			?>
 		</div>
 		<?php
@@ -42,8 +42,9 @@
 		endif;?>
 		
 		<div class="entry-content">
-			<?php echo minaz_get_excerpt(100);?>
+			<?php echo minaz_get_excerpt(80);?>
 		</div><!-- .entry-content -->
+		<?php minaz_posted_on(); ?>
 	</div>
 </div>
 <hr>

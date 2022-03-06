@@ -24,10 +24,10 @@ get_header();
 do_action('minaz_blog_slider_action');
 ?>
 
-<main id="site-content" class="site-main container mt-6">
-    <div id="primary" class="content-area">
+<section id="site-content" class="site-main mt-6">
+    <div id="primary" class="container">
         <div class="row">
-            <div class="col-md-9 pr-sm-5">
+            <div class="col-md-9">
                 <?php
 					if ( have_posts() ) :
 
@@ -50,7 +50,7 @@ do_action('minaz_blog_slider_action');
 						 * If you want to override this in a child theme, then include a file
 						 * called content-___.php (where ___ is the Post Type name) and that will be used instead.
 						 */
-						if($count%4 === 0):
+						if($count%3 === 0):
 							get_template_part( 'template-parts/content', 'archive-full');
 						else:
 						get_template_part( 'template-parts/content', 'archive');
@@ -76,7 +76,7 @@ do_action('minaz_blog_slider_action');
 			</div>
         </div>
     </div><!-- #primary -->
-</main><!-- #main -->
+			</section><!-- #main -->
 
 <?php
 get_footer();

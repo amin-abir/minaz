@@ -107,7 +107,7 @@ function minaz_scripts() {
 	
 	wp_enqueue_style( 'slick-theme-style', get_template_directory_uri() . '/assets/css/slick-theme.css');
 	 
-	wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap');
+	wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,400&family=Jost:ital,wght@0,400;0,500;1,400&display=swap');
 
 	wp_enqueue_style( 'navbar', get_template_directory_uri() . '/assets/css/navbar.min.css');
 	
