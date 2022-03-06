@@ -1,12 +1,12 @@
-/*!
+/*
 Theme Name: Minaz
-Theme URI: https://themesbyte.com/minaz/
-Author: B.M. Rafiul Alam
-Author URI: https://profiles.wordpress.org/rafiul17/
+Theme URI: 
+Author: amin7
+Author URI: https://profiles.wordpress.org/amin7/
 Description: Minaz is a responsive multipurpose magazine blog theme.  It is clean and compatible with many devices, 
 It's flexible and suitable for agencies, blogs, magazine, businesses and others. 
-Version: 1.6
-Tested up to: 5.6
+Version: 1.0
+Tested up to: 5.9
 Requires PHP: 5.4
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -1059,7 +1059,7 @@ li.comment {
 }
 .site-description {
   font-size: 18px;
-  color: #dc3545;
+  color: #346751;
 }
 .widget_recent_entries .media,
 .footer .media {
@@ -1173,7 +1173,7 @@ ul#recentcomments a,
   content: "\21E2";
   position: absolute;
   left: -20px;
-  color: #ec2525;
+  color: #346751;
 }
 body#tinymce.wp-editor {
   margin: 10px;

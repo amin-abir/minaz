@@ -9,7 +9,7 @@
 
 get_header();
 ?>
-<main id="site-content" class="site-main container mt-5">
+<main id="site-content" class="site-main container single-blog-block">
     <div id="primary" class="content-area">
         <div class="row">
             <div class="col-md-8">

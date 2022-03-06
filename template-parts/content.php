@@ -11,23 +11,29 @@
 <div id="post-<?php the_ID(); ?>" <?php post_class('thumbnail'); ?>>
     <div class="caption">
         <header class="entry-header">
+			<div class="single-post-block-meta">
+				<?php minaz_get_category(); ?>
+			</div>
             <?php
 			if ( is_singular() ) :
 				the_title( '<h1 class="entry-title mb-3">', '</h1>' );
 			else :
 				the_title( '<h1 class="entry-title mb-3"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h1>' );
 			endif;?>
-            <div class="blog_post_meta mb-3">
+            <div class="single-post-block-meta blog_post_meta mb-3">
                 <?php 
-				minaz_posted_on();
-				minaz_posted_by(); 
-				minaz_get_category();
+				minaz_posted_on();				
 				?>
             </div>
 			
             <?php if ( 'post' === get_post_type() ) :?>
             <?php minaz_post_thumbnail(); ?>
             <?php endif; ?>
+			<div class="single-post-author">
+				<?php minaz_posted_by();  ?>
+				
+			</div>
+
 
         </header><!-- .entry-header -->
         <div class="entry-content mb-4 mt-4">

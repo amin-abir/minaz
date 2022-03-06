@@ -99,11 +99,12 @@ strong {
 .entry-title a,
 .comment-reply-title,
 .comments-title {
-  font-size: 20px;
+  font-size: 29px;
   position: relative;
   display: inline-block;
   line-height: 38px;
   letter-spacing: 0.5px;
+  padding-bottom: 10px;
   line-height: 32px;
   color: #1d1d1d;
   font-weight: 400;
@@ -259,7 +260,7 @@ strong {
 }
 
 .read-more {
-  border: 1px solid #ff5657;
+  border: 1px solid #346751;
   border-radius: 15px;
   padding: 5px 20px 5px 20px;
   margin-top: 20px !important;
@@ -285,7 +286,7 @@ strong {
 }
 
 .archive .readmore-btn {
-  border: 1px solid #ff5657;
+  border: 1px solid #346751;
   padding: 5px 25px 5px 25px;
   margin-top: 15px;
   display: inline-block;
@@ -294,7 +295,7 @@ strong {
 }
 
 .archive .readmore-btn:hover {
-  background: #ff5657;
+  background: #346751;
   color: #fff;
 }
 
@@ -341,6 +342,38 @@ strong {
 
 .archive .blog h3 a {
   color: #030303;
+}
+.single-blog-block{
+  padding-top: 70px;
+}
+.single-blog-block .entry-header{
+ text-align: center;
+}
+.single-blog-block .blog_post_meta{
+  text-align: center;
+}
+.single-post-block-meta{
+  text-align: center;
+  font-size:13px;
+  text-transform:uppercase;
+  font-weight: 400;
+  
+}
+.single-post-block-meta a{
+  color:#57837b;
+  padding-bottom: 10px;
+}
+.single-post-block-meta span .posted-on .post-date{
+  text-align: center;
+}
+.single-post-author{
+  padding-top: 20px;
+  padding-bottom: 5px;
+  text-align: left;
+  text-transform: capitalize;
+  font-size:15px;
+  font-family: "Jost", sans-serif;
+  border-bottom: 1px solid #346751;
 }
 
 /*=========== blog-sidebar css ===============*/
@@ -955,7 +988,7 @@ hr {
   margin-top: 15px;
   margin-bottom: 20px;
   border: 0;
-  border-top: 1px solid #e4e4e4;
+  border-top: 1px solid #346751;
 }
 .footer hr {
   margin-top: 0px;
@@ -1450,10 +1483,14 @@ p.logged-in-as {
   box-shadow: 0 0 34px 0 rgba(63, 66, 87, 0.1);
 }
 .nav.navbar-nav li a {
-  color: #030303;
+  color: #1d1d1d;
   text-align: left;
   text-transform: uppercase;
 }
+.nav.navbar-nav li a:hover {
+  background-color: transparent
+}
+
 .dropdown-toggle:after {
   border: none;
   vertical-align: 0;
@@ -1719,7 +1756,7 @@ span.next-post {
     object-fit: cover;
 }
 .home .btn-more {
-  color: #dc3545;
+  color: #346751;
   font-size: 14px;
   margin-top: 15px;
   display: block;
@@ -1779,7 +1816,12 @@ span.next-post {
     position: relative;
     top: -1px;
 }
-
+.posted-on .post-date{
+font-size:12px;
+text-transform: uppercase;
+font-family: "Jost", sans-serif;
+font-weight: 300;
+}
 .site-main .post-thumbnail img, .sidebar .media img{
 	border-radius:0px;
   
@@ -1828,7 +1870,7 @@ hr{
     margin-bottom: 25px;
     width: 97%;
     border: 0;
-    border-top: 1px solid #f2f2f2;
+    border-top: 1px solid #346751;
 }
 .blog-slider {
     opacity: 0;
@@ -1865,7 +1907,7 @@ hr{
     opacity: .5;
 }
 .slick-nav:hover, .slick-nav:focus{
-	background:#dc3545;
+	background:#346751;
 }
 .slick-nav.slick-prev {
     left: 55px;
@@ -2032,7 +2074,9 @@ svg:not(:root) {
     object-fit: cover;
 }
 .blog_post_meta .minaz-cat{
-	color:#dc3545
+  color: #57837b;
+  font-weight: 500;
+  font-size: 14px;
 }
 button.navbar-toggler {
     position: absolute;

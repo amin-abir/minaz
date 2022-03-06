@@ -30,7 +30,7 @@
 		<div class="blog_post_meta mt-3 mb-2">
 			<?php
 			minaz_get_category();
-			minaz_posted_on();
+			
 			?>
 		</div>
 		<?php
@@ -43,6 +43,9 @@
 		<div class="entry-content">
 			<?php echo minaz_get_excerpt(255);?>
 		</div><!-- .entry-content -->
+		<div class="post-date">
+			<?php minaz_posted_on(); ?>
+			</div>
 	</div>
 </div>
 <hr>
