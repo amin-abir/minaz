@@ -91,6 +91,7 @@ Included as part of the following classes and functions:
 Image for theme screenshot.
 1.https://www.pexels.com/photo/photo-of-sliced-fruits-on-top-of-ceramic-plates-4113824/
 2.https://www.pexels.com/photo/selective-focus-photography-of-standing-woman-wearing-brown-hat-3244799/
+3.https://www.pexels.com/photo/close-up-photo-of-leaves-1599969/
 
 
 

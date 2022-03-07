@@ -2021,11 +2021,11 @@ svg:not(:root) {
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #fff;
-  font-weight: 700;
+  font-weight: 400;
   display: inline-block;
-  padding: 6px 14px;
-  border: 1px solid;
-  border-color: #c69f73;
+  padding: 2px 14px;
+  border: 2px solid;
+  border-color: #f1f1f1;
   -o-transition: .2s;
   -ms-transition: .2s;
   -moz-transition: .2s;
@@ -2045,7 +2045,7 @@ svg:not(:root) {
 
 .slide-wrapper .slide-text h2 {
   color: #fff;
-  font-size: 29px;
+  font-size: 32px;
   line-height: 2rem;
   padding: 13px 0 10px 0;
   text-transform: capitalize;
@@ -2056,7 +2056,11 @@ svg:not(:root) {
 }
 .slide-wrapper .cat a {
     text-transform:uppercase;
-    font-size: 11px;
+    font-size: 13px;
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    background-color: #1d4936;
+    padding: 2px 9px;
 }
 .slide-wrapper .slide-text a {
     color: #fff;
