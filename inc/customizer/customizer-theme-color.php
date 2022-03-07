@@ -17,28 +17,14 @@ function minaz_color_customizer_sections( $wp_customize ) {
 add_action( 'customize_register', 'minaz_color_customizer_sections' );
 
 function minaz_color_customizer_fields( $fields ) {
-	$fields[] = array(
-        'type'        => 'color',
-        'settings'    => 'minaz_header_color',
-        'label'       => __( 'Header Background', 'minaz' ),
-        'section'     => 'color_customizer',
-        'priority'    => 10,
-		'default'     => '#fff',
-		'transport'   => 'postMessage',
-		'output' => array(
-				array(
-					'element'  => '.nav-header',
-					'property' => 'background-color',
-				),
-		),
-    ); 
+	 
 	$fields[] = array(
         'type'        => 'color',
         'settings'    => 'minaz_body_color',
         'label'       => __( 'Body Background', 'minaz' ),
         'section'     => 'color_customizer',
         'priority'    => 10,
-		'default'     => '#fff',
+		'default'     => '#ededed',
 		'transport'   => 'postMessage',
 		'output' => array(
 				array(

@@ -1,38 +1,13 @@
 /*
-  Minaz Style
+  Minaz Main Style
  */
 
- @font-face {
-  font-family: "fontello";
-  src: url("../fonts/fontello.eot?40685744");
-  src: url("../fonts/fontello.eot?40685744#iefix") format("embedded-opentype"),
-    url("../fonts/fontello.woff2?40685744") format("woff2"),
-    url("../fonts/fontello.woff?40685744") format("woff"),
-    url("../fonts/fontello.ttf?40685744") format("truetype"),
-    url("../fonts/fontello.svg?40685744#fontello") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
-/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
-/*
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  @font-face {
-    font-family: 'fontello';
-    src: url('../font/fontello.svg?40685744#fontello') format('svg');
-  }
-}
-*/
-* {
-  margin: 0;
-  padding: 0;
-}
 
 body,
 html {
   padding: 0px;
   margin: 0px;
-  color: #333;
+  color: #1d1d1d;
 }
 
 body {
@@ -54,7 +29,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Jost', serif;
   padding: 0;
   margin: 0;
 }
@@ -65,9 +40,9 @@ h6 {
 .footer h4,
 .footer h5,
 .footer h6 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Jost', serif;
   font-size: 22px;
-  font-weight: 500;
+  font-weight: 400;
   text-transform: uppercase;
   margin-bottom: 15px;
 }
@@ -128,7 +103,7 @@ strong {
 }
 
 .navbar-inverse {
-  background-color: #ff5657;
+  background-color: #346751;
   border-color: transparent;
   z-index: 45;
   margin-bottom: 0;
@@ -200,7 +175,7 @@ strong {
 .affix {
   position: fixed;
   z-index: 1001;
-  background: #ff5657;
+  background: #346751;
   width: 100%;
   top: 0;
   -webkit-transition: all 0.6s ease-in;
@@ -362,18 +337,28 @@ strong {
 .single-post-block-meta a{
   color:#57837b;
   padding-bottom: 10px;
+  font-size: 16px;
 }
 .single-post-block-meta span .posted-on .post-date{
   text-align: center;
+}
+.single-post-block-content{
+  font-size:16px;
 }
 .single-post-author{
   padding-top: 20px;
   padding-bottom: 5px;
   text-align: left;
   text-transform: capitalize;
-  font-size:15px;
+  font-size:16px;
   font-family: "Jost", sans-serif;
   border-bottom: 1px solid #346751;
+}
+.single-post-date{
+  padding-bottom:15px;
+  font-size:15px;
+  text-transform: uppercase;
+
 }
 
 /*=========== blog-sidebar css ===============*/
@@ -460,7 +445,7 @@ strong {
 }
 
 .widget-search .search-form:focus {
-  border-color: #1aabec;
+  border-color: #346751;
 }
 
 .post-widget .media {
@@ -477,7 +462,7 @@ strong {
 }
 
 .post-widget .media .media-body .tn_tittle:hover {
-  color: #1aabec;
+  color: #346751;
 }
 
 .post-widget .media .media-body ul li {
@@ -495,11 +480,11 @@ strong {
 }
 
 .post-widget .media .media-body ul li a:hover {
-  color: #1aabec;
+  color: #346751;
 }
 
 .post-widget .media .media-body ul li a:hover i {
-  color: #1aabec;
+  color: #346751;
 }
 
 .post-widget .media .media-body ul li + li {
@@ -525,16 +510,24 @@ strong {
 }
 .wp-block-tag-cloud a{
   position: relative;
-  display: inline-block;
-  vertical-align: top;
-  margin: 0 14px 5px 0;
-  font-family: "Montserrat",sans-serif;
-  font-size: 13px!important;
-  line-height: inherit;
-  font-weight: inherit;
-  letter-spacing: .3em;
-  text-transform: uppercase;
-  color: #6a5921;
+    display: inline-block;
+    vertical-align: top;
+    font-family: "Jost",sans-serif;
+    font-size: 13px!important;
+    line-height: inherit;
+    font-weight: inherit;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #1d1d1d;
+    border: 1px solid #346751;
+    padding: 0 8px;
+    margin: 4px 2px;
+}
+
+.wp-block-tag-cloud a:hover{
+  background-color: #346751;
+  color: #fff;
+  transition: 0.3s;
 }
 
 .tag-widget .tag li a:hover,
@@ -557,7 +550,7 @@ strong {
 }
 
 .categories-widget .c-list li a:hover {
-  color: #1aabec;
+  color: #346751;;
 }
 
 .single-blog-area {
@@ -605,7 +598,7 @@ blockquote p {
 }
 
 .single-post .pagination a:hover {
-  color: #1aabec;
+  color: #346751;;
 }
 
 .comment-title {
@@ -645,7 +638,7 @@ blockquote p {
 }
 
 .comments .comment .media-body .reply-btn:hover {
-  color: #1aabec;
+  color: #346751;;
 }
 
 .comments .comment.reply,
@@ -838,7 +831,7 @@ blockquote::before {
 }
 
 .footer {
-  padding: 50px 0px 10px 0px;
+  padding: 20px 0px;
   margin-top:30px;
   text-align: center;
   background-color: #fff;
@@ -858,7 +851,7 @@ blockquote::before {
   width: 40px;
   height: 40px;
   text-align: center;
-  background: #333;
+  background: #346751;
   line-height: 35px;
   font-size: 30px;
   color: #fff;
@@ -885,63 +878,52 @@ blockquote::before {
   transition: all 400ms;
   transform: rotate(360deg);
 }
-/*==== Social ==== */
 
-/* footer social icons */
+/* fonts */
 
-ul.social-network {
-  list-style: none;
-  display: inline-block;
-  margin-left: 0 !important;
+@font-face {
+  font-family: "fontello";
+  src: url("../fonts/fontello.eot?40685744");
+  src: url("../fonts/fontello.eot?40685744#iefix") format("embedded-opentype"),
+    url("../fonts/fontello.woff2?40685744") format("woff2"),
+    url("../fonts/fontello.woff?40685744") format("woff"),
+    url("../fonts/fontello.ttf?40685744") format("truetype"),
+    url("../fonts/fontello.svg?40685744#fontello") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?40685744#fontello') format('svg');
+  }
+}
+*/
+* {
+  margin: 0;
   padding: 0;
-  margin-bottom: 5px;
 }
 
-ul.social-network li {
-  display: inline;
-  margin: 0;
+/* Footer: Copyright */
+
+.copyright_info p{
+font-family: "Montserrat", sans-serif;
+font-size: 15px;
+font-weight: 300;
+letter-spacing:1px;
+color:#1d1d1d;
 }
 
-.social-circle li a {
-  display: inline-block;
-  position: relative;
-  margin: 0 auto 0 auto;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  text-align: center;
-  width: 35px;
-  height: 50px;
+.copyright_info a{
+  font-family: "Jost", sans-serif;
   font-size: 15px;
-}
-
-.social-circle li i {
-  margin: 0;
-  line-height: 50px;
-  text-align: center;
-}
-
-.social-circle li a:hover i,
-.triggeredHover {
-  -moz-transform: rotate(360deg);
-  -webkit-transform: rotate(360deg);
-  -ms--transform: rotate(360deg);
-  transform: rotate(360deg);
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -o-transition: all 0.2s;
-  -ms-transition: all 0.2s;
-  transition: all 0.2s;
-}
-
-.social-circle i {
-  color: #fff;
-  -webkit-transition: all 0.8s;
-  -moz-transition: all 0.8s;
-  -o-transition: all 0.8s;
-  -ms-transition: all 0.8s;
-  transition: all 0.8s;
-}
+  font-weight: 400;
+  letter-spacing:1px;
+  color:#346751;
+  }
 
 /*==== 404 ==== */
 
@@ -1486,7 +1468,13 @@ p.logged-in-as {
   color: #1d1d1d;
   text-align: left;
   text-transform: uppercase;
+  font-family: 'Jost', sans-serif;
+  font-weight: 500;
 }
+.nav.navbar-nav li a:hover{
+  color: #346751;
+}
+
 .nav.navbar-nav li a:hover {
   background-color: transparent
 }
@@ -1536,20 +1524,27 @@ p.logged-in-as {
   outline: none;
 }
 .widget-search .search-form:focus {
-  border-color: #1aabec;
+  border-color: #346751;
 }
 .widget ul {
   margin: 0;
   list-style: none;
 }
-.widget ul li a,
+
 .tagcloud a {
   color: #333;
   font-weight: 400;
 }
+.widget ul li a{
+     color: #1d1d1d;
+    font-weight: 400;
+    font-family: 'Jost', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+}
 .widget ul li a:hover,
 .tagcloud a:hover {
-  color: #797979;
+  color: #346751;
 }
 h1.site-title {
     padding-top: 15px;
@@ -1822,6 +1817,11 @@ text-transform: uppercase;
 font-family: "Jost", sans-serif;
 font-weight: 300;
 }
+
+.posted-on .post-date:hover{
+  color: #346751;
+}
+
 .site-main .post-thumbnail img, .sidebar .media img{
 	border-radius:0px;
   
@@ -1872,6 +1872,10 @@ hr{
     border: 0;
     border-top: 1px solid #346751;
 }
+img.custom-logo{
+  margin: 20px 0;
+}
+
 .blog-slider {
     opacity: 0;
     visibility: hidden;
@@ -1969,7 +1973,7 @@ svg:not(:root) {
 /* Common style */
 .slide-grid{
   position: relative;
-  margin-top: 15px;
+  padding-top: 25px;
 }
 .slide-grid figure img {
   position: relative;
@@ -2085,11 +2089,12 @@ button.navbar-toggler {
     border: none;
 }
 .nav-header {
-    background-color: #ffffff;
     box-shadow: none;
 }
 nav.navbar.navbar-expand-lg.navbar-light.bg-theme {
-    border-bottom: 2px solid #346773;
+    border-bottom: 1px solid #346773;
+    border-top: 1px solid #346773;
+    padding-bottom:0px;
 }
 @media(max-width:450px){
 	.blog_post_meta {

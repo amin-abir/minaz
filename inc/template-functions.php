@@ -43,7 +43,7 @@ function minaz_thumbsize() {
 	add_image_size( 'minaz-sidebar-thumbnail', 100, 80, true );
 	add_image_size( 'minaz-search-thumbnail', 150, 150, true );
 	add_image_size( 'minaz-home-thumbnail', 370, 320, true );
-	add_image_size( 'minaz-blog-thumbnail', 1200, 628, true );
+	add_image_size( 'minaz-blog-thumbnail', 1200, 650, true );
 }
 add_action( 'after_setup_theme', 'minaz_thumbsize' );
 
@@ -58,7 +58,7 @@ function minaz_get_excerpt( $count ) {
 	$excerpt = substr($excerpt, 0, $count);
 	$excerpt = wp_kses_post(substr($excerpt, 0, strripos($excerpt, " ")));
 	if(!is_home() || is_front_page()){
-	$excerpt = '<p>'.$excerpt.'...</p>';
+	$excerpt = '<p>'.$excerpt.'....</p>';
 		return $excerpt;
 	}
 }
@@ -172,26 +172,7 @@ function minaz_widgets_init() {
 			'before_title'  => '<h2 class="widget-title">',
 			'after_title'   => '</h2>',
 		) );
-	register_sidebar(
-		array(
-			'name' 			=> esc_html__('Footer Menu Widget Area','minaz'),
-			'id'        	=> 'footer_menu',
-			'description' 	=> esc_html__('Footer Menu Area','minaz'),
-			'before_widget' => '<div class="col-md-3">',
-			'after_widget' 	=> '</div>',
-			'before_title' 	=> '<h4>',
-			'after_title' 	=> '</h4>',
-		));
-		register_sidebar( 
-		array(
-			'name' 			=> esc_html__('&copy; Copyright Widget Area','minaz'),
-			'id' 			=> 'copyright',
-			'description' 	=> esc_html__('Add Copyright Text','minaz'),
-			'before_widget' => '',
-			'after_widget' 	=> '',
-			'before_title' 	=> '',
-			'after_title' 	=> '',
-		));
+	
 }
 add_action( 'widgets_init', 'minaz_widgets_init' );
 

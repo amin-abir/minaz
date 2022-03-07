@@ -64,23 +64,14 @@ if ( ! function_exists( 'minaz_footer' ) ) :
 <!--Footer-->
 <footer class="footer sec-bg">
     <div class="container">
-        <div class="row text-left mt-4 mb-4">
-		<?php
-			if (is_active_sidebar('footer_menu')) {
-				dynamic_sidebar('footer_menu');
-			}
-		?>
-        </div>
-        <hr>
         <div class="row copyright_info">
             <div class="col-md-12">
                 <div class="mt-2">
-                    <?php
-					if (!is_active_sidebar('copyright')) {
-					?>
+                    
                     <div class="footer-credits">
                         <p class="footer-copyright powered-by-wordpress">
                             &copy;
+                            <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?>.</a>
                             <?php
 							echo date_i18n(
 								/* translators: Copyright date format, see https://secure.php.net/date */
@@ -88,15 +79,13 @@ if ( ! function_exists( 'minaz_footer' ) ) :
 							);
 							?>
 									
-							<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?>.</a>
-							<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'minaz' ) ); ?>">
-							<?php _e( 'Powered by WordPress', 'minaz' ); ?>
+							
+							| Made with &#9829; by<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'minaz' ) ); ?>">
+							<?php _e( 'WordPress', 'minaz' ); ?>
 							</a>
                         </p><!-- .powered-by-wordpress -->
                     </div><!-- .footer-credits -->
-                    <?php } else{?>
-                    <small><?php dynamic_sidebar('copyright');?> </small>
-                    <?php }?>
+                    
                 </div>
             </div>
         </div>

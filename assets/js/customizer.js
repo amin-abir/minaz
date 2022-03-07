@@ -24,11 +24,7 @@
       $(".footer").css("background-color", to);
     });
   });
-  wp.customize("minaz_header_color", function (value) {
-    value.bind(function (to) {
-      $(".nav-header ").css("background-color", to);
-    });
-  });
+ 
   //Slider Bg
   wp.customize("minaz_slide_color", function (value) {
     value.bind(function (to) {

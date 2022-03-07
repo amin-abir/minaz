@@ -141,11 +141,6 @@ add_action( 'wp_enqueue_scripts', 'minaz_scripts' );
  */
 require get_template_directory() . '/inc/hook/hook.php';
 
-/**
- * Custom template tags for this theme.
- */
-require get_template_directory() . '/inc/template-tags.php';
-
 
 /**
  * Custom template tags for this theme.
@@ -162,11 +157,9 @@ require get_template_directory() . '/inc/template-functions.php';
  */
 require get_template_directory() . '/inc/customizer/customizer.php';
 
-require get_template_directory() . '/inc/customizer/customizer-social.php';
-
 require get_template_directory() . '/inc/customizer/customizer-blog.php';
 
-require get_template_directory() . '/inc/customizer/customizer-colors.php';
+require get_template_directory() . '/inc/customizer/customizer-theme-color.php';
 
 
 

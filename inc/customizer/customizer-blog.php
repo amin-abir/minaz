@@ -1,6 +1,14 @@
 <?php
 
 function minaz_blog_customizer_sections( $wp_customize ) {
+
+	/**
+	 * Add panels
+	 */
+	$wp_customize->add_panel( 'minaz_customizer', array(
+		'priority'    => 10,
+		'title'       => __( 'Minaz Options', 'minaz' ),
+	) );
 	
 	/**
 	 * Add sections

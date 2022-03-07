@@ -1146,11 +1146,8 @@ ul#recentcomments a,
 .footer a,
 .footer {
   color: #333;
-  font-size: 13.5px;
 }
-.footer a:hover {
-  color: #ddd;
-}
+
 .footer .media .list-inline {
   padding: 7px;
 }
@@ -1170,7 +1167,7 @@ ul#recentcomments a,
 .widget_categories ul li:before,
 .widget_meta ul li:before,
 .widget_recent_entries ul li:before {
-  content: "\21E2";
+  content: "\2299";
   position: absolute;
   left: -20px;
   color: #346751;

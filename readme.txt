@@ -1,9 +1,9 @@
-=== minaz ===
+=== Minaz ===
 
-Contributors: rafiul17,tbyte
+Contributors: amin7
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 Requires at least: 4.0
-Tested up to: 5.4.2
+Tested up to: 5.9.1
 Stable tag: 5.0
 Requires PHP: 5.4
 License: GNU General Public License v2 or later
@@ -13,8 +13,6 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 == Description ==
 Minaz is a responsive multipurpose template, it is clean and compatible with many devices, It’s flexible and suitable for agencies, blogs, businesses, finance, accounting, consulting, no need to coding as it is very customizable.Use the new Theme Options customizer to add your own header image, custom background, page layout, site width, link color and more. 
 
-
-Minaz WordPress Theme, Copyright (C) 2020, B.M. Rafiul Alam
 Minaz is distributed under the terms of the GNU GPL
 
 == Installation ==
@@ -34,10 +32,8 @@ Minaz is distributed under the terms of the GNU GPL
 
 == Changelog ==
 
-= 1.6 - October 08 2021 =
-* WooCommerce Compability
 
-= 1.0 - May 01 2020 =
+= 1.0 - March 10 2022 =
 * Initial release
 
 == Credits ==
