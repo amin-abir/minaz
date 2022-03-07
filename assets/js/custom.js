@@ -35,8 +35,8 @@
     });
 	
 jQuery('.blog-slider').slick({
- autoplay:false,
-  autoplaySpeed:2000,
+ autoplay:true,
+  autoplaySpeed:4000,
   arrows:true,
   prevArrow:'<button type="button" class="slick-prev"></button>',
   nextArrow:'<button type="button" class="slick-next"></button>',

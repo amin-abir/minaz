@@ -11,7 +11,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 
 == Description ==
-Minaz is a responsive multipurpose template, it is clean and compatible with many devices, It’s flexible and suitable for agencies, blogs, businesses, finance, accounting, consulting, no need to coding as it is very customizable.Use the new Theme Options customizer to add your own header image, custom background, page layout, site width, link color and more. 
+Minaz is a miniaml and creative blog theme, it is clean and compatible with many devices, It’s flexible and suitable for agencies, blogs, businesses, finance, accounting, consulting, no need to coding as it is very customizable.Use the new Theme Options customizer to add your own header image, custom background, page layout, site width, link color and more. 
 
 Minaz is distributed under the terms of the GNU GPL
 
@@ -88,25 +88,9 @@ Included as part of the following classes and functions:
 - minaz_skip_link()
 
 	
-Image for theme screenshot, Copyright Chuttersnap
-License: CC0 1.0 Universal (CC0 1.0)
-Source: https://stocksnap.io/photo/BIL5D73PRC
-
-Image for theme screenshot, Copyright Chuttersnap
-License: CC0 1.0 Universal (CC0 1.0)
-Source: https://stocksnap.io/photo/6MMSBQM2O9
-
-Image for theme screenshot, Copyright Chuttersnap
-License: CC0 1.0 Universal (CC0 1.0)
-Source: https://stocksnap.io/photo/1DVHICL8NM
-
-Image for theme screenshot, Copyright Chuttersnap
-License: CC0 1.0 Universal (CC0 1.0)
-Source: https://stocksnap.io/photo/people-woman-EKLWKITXH8
-
-Image for theme screenshot, Copyright Chuttersnap
-License: CC0 1.0 Universal (CC0 1.0)
-Source: https://stocksnap.io/photo/fruit-bowl-4MUZH41WMD
+Image for theme screenshot.
+1.https://www.pexels.com/photo/photo-of-sliced-fruits-on-top-of-ceramic-plates-4113824/
+2.https://www.pexels.com/photo/selective-focus-photography-of-standing-woman-wearing-brown-hat-3244799/
 
 
 
