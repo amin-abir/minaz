@@ -538,9 +538,8 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   border: 1px solid;
-  border-color: #000;
-  border-radius: 3px;
-  background: #000000;
+  border-color: #346751;
+  background: #346751;
   color: #fff;
   font-size: 12px;
   font-size: 16px;
