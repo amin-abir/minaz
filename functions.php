@@ -162,6 +162,12 @@ require get_template_directory() . '/inc/customizer/customizer-blog.php';
 require get_template_directory() . '/inc/customizer/customizer-theme-color.php';
 
 
+//Custom Widgets 
+require_once get_template_directory()  . '/inc/widgets/social-icons.php';
+require_once get_template_directory()  . '/inc/widgets/about_widget.php';
+
+
+
 
 /**
  * Kirki Customizer.

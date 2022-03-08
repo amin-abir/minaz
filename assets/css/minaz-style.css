@@ -553,6 +553,72 @@ strong {
   color: #346751;;
 }
 
+/* search Widget */
+
+.wp-block-search__button{
+  background-color: #eae9e4;
+  font-size:11px;
+  text-transform:uppercase;
+  border: 1px solid #346751;
+  padding: 3px 6px;
+  color: #1d1d1d;
+  margin-left: 0.25em;
+}
+
+.wp-block-search__button:hover{
+  background-color: #346751;
+  color: #fff;
+}
+
+/* About me widget */
+
+.about-widget{
+ text-align: center;
+}
+
+.about-image{
+  position: relative;
+  overflow: hidden;
+}
+
+.about-widget-content{
+  background-color: #eae9e4;
+}
+
+.about-curve {
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+  width: 100%;
+  background: #eae9e4;
+  height: 100px;
+  transform: skewY(-15deg);
+  transform-origin: bottom left;
+}
+
+.about-me-content{
+padding: 0 10px 10px 10px;
+color: #1d1d1d;
+font-family: 'Montserrat', sans-serif;
+font-size: 14px;
+}
+.about-me-name{
+font-family: 'Jost', sans-serif;
+font-size: 16px;
+color: #346751;
+text-transform: uppercase;
+font-weight: 500;
+letter-spacing: 2px;
+}
+.about-me-subtitle{
+  font-size:15px;
+  font-weight: 500;
+  color: #1c1c1c;
+}
+
+
+/* Single Blog */
+
 .single-blog-area {
   background: #f8fafc;
 }
@@ -1900,14 +1966,13 @@ img.custom-logo{
     width: 40px;
     height: 40px;
     line-height: 1;
-    margin-top: -23px;
+    margin-top: -3px;
     outline: 0;
     color: #fff;
     font-size: 20px;
     padding: 0;
     cursor: pointer;
     z-index: 10;
-    border-radius:7px;
     opacity: .5;
 }
 .slick-nav:hover, .slick-nav:focus{

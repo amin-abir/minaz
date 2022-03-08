@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2020-06-28 06:28+0600\n"
-"PO-Revision-Date: 2020-06-28 06:30+0600\n"
+"POT-Creation-Date: 2022-03-2 06:28+0600\n"
+"PO-Revision-Date: 2022-03-2 06:30+0600\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -41,9 +41,6 @@ msgstr ""
 msgid "Primary"
 msgstr ""
 
-#: inc/customizer.php:46
-msgid "Header Background Color"
-msgstr ""
 
 #: inc/customizer.php:67
 msgid "Footer Background Color"
@@ -54,46 +51,31 @@ msgid "https://wordpress.org/"
 msgstr ""
 
 #: inc/hook/extra.php:79
-msgid "Powered by WordPress"
+msgid "Made with love by WordPress"
 msgstr ""
 
 #: inc/template-functions.php:61 inc/template-functions.php:64
 msgid "Read More"
 msgstr ""
 
-#: inc/template-functions.php:170
+#: inc/template-functions.php:168
 msgid "Sidebar"
 msgstr ""
 
-#: inc/template-functions.php:172
+#: inc/template-functions.php:169
 msgid "Add widgets here."
 msgstr ""
 
-#: inc/template-functions.php:180
-msgid "Footer Menu Widget Area"
-msgstr ""
 
-#: inc/template-functions.php:182
-msgid "Footer Menu Area"
-msgstr ""
-
-#: inc/template-functions.php:190
-msgid "&copy; Copyright Widget Area"
-msgstr ""
-
-#: inc/template-functions.php:192
-msgid "Add Copyright Text"
-msgstr ""
-
-#: inc/template-functions.php:216
+#: inc/template-functions.php:187
 msgid "Previous"
 msgstr ""
 
-#: inc/template-functions.php:217
+#: inc/template-functions.php:188
 msgid "Next"
 msgstr ""
 
-#: inc/template-functions.php:247
+#: inc/template-functions.php:218
 msgid "Skip to the content"
 msgstr ""
 
@@ -108,7 +90,7 @@ msgstr ""
 
 #: inc/template-tags.php:88
 #, php-format
-msgid "Tagged %1$s"
+msgid "Tags %1$s"
 msgstr ""
 
 #: inc/template-tags.php:98

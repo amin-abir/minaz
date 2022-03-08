@@ -3,8 +3,7 @@ Theme Name: Minaz
 Theme URI: 
 Author: amin7
 Author URI: https://profiles.wordpress.org/amin7/
-Description: Minaz is a responsive multipurpose magazine blog theme.  It is clean and compatible with many devices, 
-It's flexible and suitable for agencies, blogs, magazine, businesses and others. 
+Description: Minaz is a minimal WordPress blog theme, perfect for personal, lifestyle, health & fitness, food, cooking, travel. Clean and minimal design with fully responsive layouts beautifully across desktop, mobile, and all devices. Minaz builds with the popular responsive CSS framework Bootstrap 4.5, Font-Awesome, HTML5, CSS3, jQuery and so many modern technologies. With minaz, you can get right to the point, presenting your content in a clean and minimal way. It’s very flexible & easy to customize with 2 Custom Widgets. Check out the demo for more information: http://www.minaz.blogwc.com/ 
 Version: 1.0
 Tested up to: 5.9
 Requires PHP: 5.4
@@ -579,13 +578,14 @@ input[type="datetime"],
 input[type="datetime-local"],
 input[type="color"],
 textarea {
-  color: #666;
-  border: 1px solid #ccc;
+  color: #1d1d1d;
+  border: 1px solid #346751;
   border-radius: 0;
-  padding: 15px;
-  height: 50px;
+  padding: 10px;
+  height: 40px;
   width: 100%;
-  font-size: 14px;
+  font-size: 13px;
+  background-color: transparent;
 }
 textarea {
   height: auto;
