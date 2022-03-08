@@ -23,9 +23,9 @@ get_header();
 					// Previous/next post navigation.
 					the_post_navigation(
 						array(
-							'next_text' => '<span class="next-post">' . __( 'Next post:', 'minaz' ) . '</span> ' .
+							'next_text' => '<span class="next-post">' . __( 'Next:', 'minaz' ) . '</span> ' .
 								'<span class="post-title">%title</span>',
-							'prev_text' => '<span class="previous-post">' . __( 'Previous post:', 'minaz' ) . '</span> ' .
+							'prev_text' => '<span class="previous-post">' . __( 'Previous:', 'minaz' ) . '</span> ' .
 								'<span class="post-title">%title</span>',
 						)
 					);

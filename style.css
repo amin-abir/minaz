@@ -582,7 +582,7 @@ textarea {
   border: 1px solid #346751;
   border-radius: 0;
   padding: 10px;
-  height: 40px;
+  height: 42px;
   width: 100%;
   font-size: 13px;
   background-color: transparent;
@@ -1183,16 +1183,16 @@ body#tinymce.wp-editor a {
   display: inline-block;
   padding: 10px 15px;
   margin: 0 2px 0 0;
-  border: 1px solid #e4e4e4;
+  border: 1px solid #346751;
   line-height: 1;
   text-decoration: none;
-  border-radius: 2px;
   font-weight: 500;
   color: #111;
 }
 .page-numbers.current,
 a.page-numbers:hover {
-  background: #f9f9f9;
+  background: #346751;
+  color:#fff;
 }
 .search-form.input-group:focus-within {
   background: #2196f31a;
