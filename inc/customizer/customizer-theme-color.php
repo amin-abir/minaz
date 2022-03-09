@@ -39,7 +39,7 @@ function minaz_color_customizer_fields( $fields ) {
         'label'       => __( 'Footer Background', 'minaz' ),
         'section'     => 'color_customizer',
         'priority'    => 10,
-		'default'     => '#ddd',
+		'default'     => '#eae9e4',
 		'transport'   => 'postMessage',
 		'output' => array(
 				array(

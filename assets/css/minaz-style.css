@@ -627,6 +627,11 @@ letter-spacing: 2px;
 
 /* Social Icons */
 
+.widget_minaz_social_button{
+  background-color: #eae9e4;
+  padding-top: 20px;
+}
+
 .widget_minaz_social_button h2{
   font-family: "Jost", sans-serif;
   font-size: 15px;
@@ -695,11 +700,14 @@ background-color: #68c3a3;
 }
 
 .single-post blockquote {
-  font-size: 18px;
-  line-height: 28px;
-  color: #030303;
-  margin-left: 15px;
-  letter-spacing: 0.9px;
+  font-size: 25px;
+    line-height: 28px;
+    color: #515151;
+    margin-left: 15px;
+    letter-spacing: 0.9px;
+    font-family: 'Jost';
+    font-weight: 400;
+    font-style: italic;
 }
 
 blockquote p {
@@ -888,16 +896,29 @@ blockquote {
   border-right: none;
 }
 
-blockquote::before {
+/* blockquote::before {
   content: "\f10d ";
   position: absolute;
   left: -30px;
   top: 10px;
   font-size: 45px;
-  color: rgb(237, 237, 237);
+  color: #346751;
   font-family: FontAwesome;
   font-style: initial;
-}
+} */
+
+blockquote.wp-block-quote p:first-child:before {
+  content: '\201C';
+  color: #346751;
+  font-style: normal;
+  font-size: 78px;
+  font-weight: 700;
+  position: absolute;
+  top: 10px;
+  left: -30px;
+  text-shadow: none;
+  font-family: serif;
+  z-index: -1;}
 
 .single .contact {
   text-align: left;

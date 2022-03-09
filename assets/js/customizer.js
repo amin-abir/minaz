@@ -52,21 +52,7 @@
     });
   });
   
-wp.customize( 'social_color', function( value ) {
-	// When the value changes.
-	value.bind( function( newval ) {
-		// Add CSS to elements.
-		$( '.social' ).css( 'color', newval );
-	} );
-} );
 
-wp.customize( 'social_font_size', function( value ) {
-	// When the value changes.
-	value.bind( function( newval ) {
-		// Add CSS to elements.
-		$( '.social' ).css( 'font-size', newval );
-	} );
-} );
 wp.customize( 'minaz_body_color', function( value ) {
 	// When the value changes.
 	value.bind( function( newval ) {

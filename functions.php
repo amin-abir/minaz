@@ -167,12 +167,17 @@ require_once get_template_directory()  . '/inc/widgets/social-icons.php';
 require_once get_template_directory()  . '/inc/widgets/about_widget.php';
 
 
-
+/**
+ * TGM plugin activation
+ */
+require get_template_directory() . '/inc/tgmpa/class-tgm-plugin-activation.php';
 
 /**
- * Kirki Customizer.
+ * Theme required plugin
  */
-require get_template_directory() . '/inc/kirki/kirki.php';
+require get_template_directory() . '/inc/tgmpa/recommended-plugins.php';
+
+
 /**
  * Load Jetpack compatibility file.
  */
